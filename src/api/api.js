@@ -18,7 +18,7 @@ export default axios.create({
 
 
 
-const baseURL= "http://localhost:8080";
+const baseURL= "http://localhost:8080/api";
 
 
 export const apiCall=(url,data,headers,method)=>axios({
