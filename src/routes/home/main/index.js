@@ -48,6 +48,10 @@
 			credentials: 'include',
 			headers:{
 				'Authorization': 'Bearer '+localStorage.getItem('token'),
+				"Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
+				"Access-Control-Allow-Origin":"*",                       
+				"Access-Control-Allow-Methods":"GET, PUT, POST, OPTIONS, DELETE",
+				"Allow":"GET,POST,OPTIONS,PUT,DELETE",
 			}
 		})
 		.then(response => response.json())
