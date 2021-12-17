@@ -1,0 +1,82 @@
+[
+    {
+        "id_red": 17,
+        "nombre": "Dalma_alida",
+        "nivel": 7,
+        "fecha_creacion": "2021-12-02 22:07:37",
+        "hijo_id": {
+            "id_usuario": 22,
+            "nombres": "Dalma Dalma",
+            "telefono": "0999999110",
+            "email": "Dalma@gmail.com",
+            "rol": "usuario",
+            "estado": "activo",
+            "usuario": "Dalma",
+            "clave_invitacion": null,
+            "contrasena": "$2a$10$HT6YxFusiEZwNevIzl.QW.6AI874skkys8oxgOYy/8X//H.02Soha",
+            "foto": null,
+            "fecha_creacion": "2021-12-02T05:00:00.000+00:00",
+            "fecha_modificacion": null,
+            "token": null,
+            "rango": null,
+            "dni": 1231231131
+        },
+        "padre_id": {
+            "id_usuario": 4,
+            "nombres": "Alida Alida",
+            "telefono": "0999999110",
+            "email": "brayanaltamiranoperez@gmail.com",
+            "rol": "administrador",
+            "estado": "activo",
+            "usuario": "alida",
+            "clave_invitacion": null,
+            "contrasena": "$2a$10$VNGpx./nreqKhvIeoULr2.WJK7Y0oRoshB41DNggvj5gAUJ1Lz1lG",
+            "foto": null,
+            "fecha_creacion": "2021-12-02T05:00:00.000+00:00",
+            "fecha_modificacion": null,
+            "token": null,
+            "rango": null,
+            "dni": 1231231111
+        }
+    },
+    {
+        "id_red": 18,
+        "nombre": "Damaris_alida",
+        "nivel": 7,
+        "fecha_creacion": "2021-12-02 22:07:37",
+        "hijo_id": {
+            "id_usuario": 23,
+            "nombres": "Damaris Damaris",
+            "telefono": "0999999110",
+            "email": "Damaris@gmail.com",
+            "rol": "usuario",
+            "estado": "activo",
+            "usuario": "Damaris",
+            "clave_invitacion": null,
+            "contrasena": "$2a$10$9J1faIz3reiQfKrlQgqscuWUhiX/RFlCoJqAA6a66mpSHEI6w7eoG",
+            "foto": null,
+            "fecha_creacion": "2021-12-02T05:00:00.000+00:00",
+            "fecha_modificacion": null,
+            "token": null,
+            "rango": null,
+            "dni": 1231231132
+        },
+        "padre_id": {
+            "id_usuario": 4,
+            "nombres": "Alida Alida",
+            "telefono": "0999999110",
+            "email": "brayanaltamiranoperez@gmail.com",
+            "rol": "administrador",
+            "estado": "activo",
+            "usuario": "alida",
+            "clave_invitacion": null,
+            "contrasena": "$2a$10$VNGpx./nreqKhvIeoULr2.WJK7Y0oRoshB41DNggvj5gAUJ1Lz1lG",
+            "foto": null,
+            "fecha_creacion": "2021-12-02T05:00:00.000+00:00",
+            "fecha_modificacion": null,
+            "token": null,
+            "rango": null,
+            "dni": 1231231111
+        }
+    }
+]
