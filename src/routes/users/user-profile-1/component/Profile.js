@@ -59,7 +59,7 @@
                      const requestOptions = {
                         method: 'GET'
                     };
-                    fetch('http://localhost:8080/api/user/updatepwd/'+localStorage.getItem('iduser')+'/'+password , requestOptions)
+                    fetch(global.config.i18n.variables.ruta+'/user/updatepwd/'+localStorage.getItem('iduser')+'/'+password , requestOptions)
                        .then(response => response.json())
                        .then(data => this.setState({ id_usuario: localStorage.getItem('iduser')}));
                     document.getElementById("address").value="";

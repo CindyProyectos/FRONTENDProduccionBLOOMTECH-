@@ -18,7 +18,7 @@ export default axios.create({
 
 
 
-const baseURL= "http://localhost:8080/api";
+const baseURL= global.config.i18n.variables.ruta;
 
 
 export const apiCall=(url,data,headers,method)=>axios({

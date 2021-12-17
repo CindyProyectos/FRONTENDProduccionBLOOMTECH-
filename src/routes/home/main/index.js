@@ -44,7 +44,7 @@
 	}
 
 	componentDidMount(){
-		fetch('http://localhost:8080/api/price/find',{
+		fetch(global.config.i18n.variables.ruta+'/price/find',{
 			//credentials: 'include',
 			headers:{
 				'Authorization': 'Bearer '+localStorage.getItem('token'),
